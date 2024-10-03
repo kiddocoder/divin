@@ -1,60 +1,56 @@
 body {
-background-image: url() ;
-color: aqua;
-background-size: cover;
-align-items: center;
-display: flex;
-flex-direction: column;
+  background-image: url();
+  color: aqua;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-#nav ul li{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    display: inline-block;
-    padding: 25px;
-    text-align: center;
-    border: 1px solid grey;
-    background-color: blanchedalmond;
-    color: black;
-}  
+#nav ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  display: inline-block;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: blanchedalmond;
+  color: black;
+}
 /*contenu*/
 
-#text1{
-    color: blue;
-    text-align: center;
-    height: 10px;
-    margin-bottom: 70px;
+#text1 {
+  color: blue;
+  text-align: center;
+  height: 10px;
+  margin-bottom: 70px;
 }
-#text2{
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid greenyellow;
-    background-color: aqua;
-    color: beige;
-
-} 
-
-#text3{
-    color: aqua;
-    text-align: center;
-height: 10px;  
-margin-bottom: 70px;  
-} 
-#tableau{
-    color: blue;
-    text-align: center;
-    border: 1px solid grey;
-    background-color: aquamarine;
-
+#text2 {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid greenyellow;
+  background-color: aqua;
+  color: beige;
 }
-#pied{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    display: inline-block ;
-    padding: 25px;
-    text-align: center;
 
-
+#text3 {
+  color: aqua;
+  text-align: center;
+  height: 10px;
+  margin-bottom: 70px;
+}
+#tableau {
+  color: blue;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: aquamarine;
+}
+#pied {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  display: inline-block;
+  padding: 25px;
+  text-align: center;
 }
