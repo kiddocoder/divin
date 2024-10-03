@@ -70,7 +70,12 @@ section.container {
 .reverse{
   flex-direction: row-reverse;
 }
-
+.change{
+  flex-direction: column !important;
+}
+.change img{
+  width: 100% !important;
+}
 section.container .details {
     display: flex;
     gap: 20px;
